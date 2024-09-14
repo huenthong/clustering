@@ -14,7 +14,7 @@ import seaborn as sns
 st.title('Obesity Risk Clustering App')
 
 # Load the scaled cleaned CSV file
-df = pd.read_csv('pca_df.csv')
+df = pd.read_csv('ObesityDataSet.csv')
 
 # Preprocessing Steps from your code
 # Step 1: Create a BMI feature
